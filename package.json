@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "firebase-admin": "^10.0.1"
+  },
+  "name": "fbtools",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node-dev src",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "prettier": "2.5.1",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
